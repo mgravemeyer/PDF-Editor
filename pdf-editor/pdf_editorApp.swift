@@ -10,13 +10,11 @@ import SwiftUI
 @main
 struct pdf_editorApp: App {
     
-    @EnvironmentObject var pdfMediaVM: PDFMediaViewModel
-    
     var body: some Scene {
         WindowGroup {
             NavigationView {
                 PDFListView()
-                    .environmentObject(pdfMediaVM)
+                    .environmentObject(PDFMediaViewModel())
             }
         }
     }

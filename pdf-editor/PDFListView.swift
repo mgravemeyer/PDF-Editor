@@ -2,16 +2,12 @@ import SwiftUI
 
 struct PDFListView: View {
     
-    init() {
-
-    }
-    
-    var pdfs = [String]()
+    @StateObject var pdfMediaVM = PDFMediaViewModel()
     
     var body: some View {
         List {
-            ForEach(pdfs, id: \.self) {
-                NavigationLink($0, destination: PDFListDetailView(pdfDetailUIView: PDFDetailUIView(selection: $0)))
+            ForEach(pdfMediaVM.pdfNameList, id: \.self) {
+                NavigationLink($0.dropLast(4), destination: PDFListDetailView(pdfDetailUIView: PDFDetailUIView(selection: $0), name: $0))
             }
         }
     }
