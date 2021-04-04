@@ -2,7 +2,11 @@ import SwiftUI
 
 struct PDFListDetailView: View {
     
-    let pdfDetailUIView = PDFDetailUIView(selection: "")
+    init(pdfDetailUIView: PDFDetailUIView) {
+        self.pdfDetailUIView = pdfDetailUIView
+    }
+    
+    let pdfDetailUIView: PDFDetailUIView
     
     var body: some View {
         VStack {

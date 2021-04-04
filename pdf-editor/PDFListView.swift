@@ -20,7 +20,7 @@ struct PDFListView: View {
     var body: some View {
         List {
             ForEach(pdfs, id: \.self) {
-                NavigationLink($0, destination: PDFListDetailView())
+                NavigationLink($0, destination: PDFListDetailView(pdfDetailUIView: PDFDetailUIView(selection: $0)))
             }
         }
     }
