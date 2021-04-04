@@ -21,7 +21,7 @@ struct PDFListView: View {
         NavigationView {
             List {
                 ForEach(pdfs, id: \.self) {
-                    NavigationLink($0, destination: ContentView())
+                    NavigationLink($0, destination: ContentView(selectedPDF: $0))
                 }
             }
         }
