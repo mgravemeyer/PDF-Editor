@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  pdf-editor
-//
-//  Created by Maximilian Gravemeyer on 04.04.21.
-//
-
 import SwiftUI
 
 struct ContentView: View {
