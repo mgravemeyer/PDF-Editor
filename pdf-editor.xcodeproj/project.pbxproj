@@ -12,6 +12,7 @@
 		E37877E72619C02B003323B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37877E62619C02B003323B9 /* Assets.xcassets */; };
 		E37877EA2619C02B003323B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37877E92619C02B003323B9 /* Preview Assets.xcassets */; };
 		E37877F22619C175003323B9 /* PDFListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37877F12619C175003323B9 /* PDFListView.swift */; };
+		E37877F62619C283003323B9 /* PDFDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37877F52619C283003323B9 /* PDFDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E37877E92619C02B003323B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E37877EB2619C02B003323B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37877F12619C175003323B9 /* PDFListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFListView.swift; sourceTree = "<group>"; };
+		E37877F52619C283003323B9 /* PDFDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E37877E22619C02A003323B9 /* pdf_editorApp.swift */,
 				E37877E42619C02A003323B9 /* ContentView.swift */,
 				E37877F12619C175003323B9 /* PDFListView.swift */,
+				E37877F52619C283003323B9 /* PDFDetailView.swift */,
 				E37877E62619C02B003323B9 /* Assets.xcassets */,
 				E37877EB2619C02B003323B9 /* Info.plist */,
 				E37877E82619C02B003323B9 /* Preview Content */,
@@ -143,6 +146,7 @@
 			files = (
 				E37877E52619C02A003323B9 /* ContentView.swift in Sources */,
 				E37877F22619C175003323B9 /* PDFListView.swift in Sources */,
+				E37877F62619C283003323B9 /* PDFDetailView.swift in Sources */,
 				E37877E32619C02A003323B9 /* pdf_editorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
