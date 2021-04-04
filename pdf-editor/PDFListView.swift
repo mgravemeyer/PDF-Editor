@@ -18,11 +18,9 @@ struct PDFListView: View {
     var pdfs = [String]()
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(pdfs, id: \.self) {
-                    NavigationLink($0, destination: ContentView(selectedPDF: $0))
-                }
+        List {
+            ForEach(pdfs, id: \.self) {
+                NavigationLink($0, destination: PDFDetailView())
             }
         }
     }

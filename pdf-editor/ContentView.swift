@@ -1,21 +1,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    let selectedPDF: String
     let pdfDetailView = PDFDetailView()
     let contentURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
     var body: some View {
-        VStack {
-            pdfDetailView
-            Button("Save") {
-                pdfDetailView.savePDF()
-            }
+        NavigationView {
+            PDFListView()
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(selectedPDF: "samplePdf")
+        ContentView()
     }
 }

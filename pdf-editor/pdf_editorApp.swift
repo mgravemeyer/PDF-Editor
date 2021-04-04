@@ -11,7 +11,9 @@ import SwiftUI
 struct pdf_editorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(selectedPDF: "")
+            NavigationView {
+                PDFListView()
+            }
         }
     }
 }
