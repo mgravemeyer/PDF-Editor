@@ -9,7 +9,7 @@ struct PDFListView: View {
             ForEach(pdfMediaVM.pdfNameList, id: \.self) {
                 NavigationLink($0.dropLast(4), destination: PDFListDetailView(pdfDetailUIView: PDFDetailUIView(selection: $0), name: $0))
             }
-        }
+        }.navigationBarTitle("PDF's", displayMode: .large)
     }
 }
 
