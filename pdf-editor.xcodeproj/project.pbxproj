@@ -14,6 +14,7 @@
 		E37877F62619C283003323B9 /* PDFDetailUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37877F52619C283003323B9 /* PDFDetailUIView.swift */; };
 		E37877F82619C42B003323B9 /* samplePdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E37877F72619C42B003323B9 /* samplePdf.pdf */; };
 		E37877FA261A0452003323B9 /* PDFListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37877F9261A0452003323B9 /* PDFListDetailView.swift */; };
+		E37877FC261A0DE6003323B9 /* PDFMediaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37877FB261A0DE6003323B9 /* PDFMediaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E37877F52619C283003323B9 /* PDFDetailUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDetailUIView.swift; sourceTree = "<group>"; };
 		E37877F72619C42B003323B9 /* samplePdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = samplePdf.pdf; sourceTree = "<group>"; };
 		E37877F9261A0452003323B9 /* PDFListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFListDetailView.swift; sourceTree = "<group>"; };
+		E37877FB261A0DE6003323B9 /* PDFMediaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMediaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E37877F9261A0452003323B9 /* PDFListDetailView.swift */,
 				E37877F52619C283003323B9 /* PDFDetailUIView.swift */,
 				E37877F72619C42B003323B9 /* samplePdf.pdf */,
+				E37877FB261A0DE6003323B9 /* PDFMediaViewModel.swift */,
 				E37877E62619C02B003323B9 /* Assets.xcassets */,
 				E37877EB2619C02B003323B9 /* Info.plist */,
 				E37877E82619C02B003323B9 /* Preview Content */,
@@ -152,6 +155,7 @@
 				E37877F62619C283003323B9 /* PDFDetailUIView.swift in Sources */,
 				E37877FA261A0452003323B9 /* PDFListDetailView.swift in Sources */,
 				E37877E32619C02A003323B9 /* pdf_editorApp.swift in Sources */,
+				E37877FC261A0DE6003323B9 /* PDFMediaViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
