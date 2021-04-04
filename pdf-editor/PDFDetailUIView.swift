@@ -1,9 +1,11 @@
 import SwiftUI
 import PDFKit
 
-struct PDFDetailView: UIViewRepresentable {
+struct PDFDetailUIView: UIViewRepresentable {
     
     let pdfView = PDFView()
+    
+    let selection: String
     
     func makeUIView(context: Context) -> PDFView {
         let fileURL = Bundle.main.url(forResource: "samplePdf", withExtension: "pdf")
@@ -35,6 +37,6 @@ struct PDFDetailView: UIViewRepresentable {
 
 struct PDFDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        PDFDetailView()
+        PDFDetailUIView(selection: "samplePDF")
     }
 }
