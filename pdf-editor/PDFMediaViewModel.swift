@@ -7,7 +7,7 @@ class PDFMediaViewModel: ObservableObject {
         loadLocalPDFNames()
     }
     
-    @Published var pdfNameList = [String]()
+    @Published private(set) var pdfNameList = [String]()
     
     func loadLocalPDFNames() {
         let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
@@ -20,5 +20,9 @@ class PDFMediaViewModel: ObservableObject {
         } catch {
             print(error.localizedDescription)
         }
+    }
+    
+    func addPDF(name: String) {
+        self.pdfNameList.append(name)
     }
 }
